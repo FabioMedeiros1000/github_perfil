@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+:root{
+    --corPrincipal: #f9ca24;
+    --corSecundaria: #111;
+}
+
+.form-usuario{
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0 16px;
+}
+
+.form-usuario-label, .form-usuario-input{
+    width: 20vw; 
+    margin: 0 auto;
+}
+
+.form-usuario-input{
+    padding: 8px;
+    margin-top: 8px;
+}
